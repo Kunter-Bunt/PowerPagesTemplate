@@ -1,0 +1,35 @@
+{
+  "name": "powerpagestemplate",
+  "version": "1.0.0",
+  "description": "Template Project for Power Pages projects to implement with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.dev.js",
+    "start": "webpack --config webpack.dev.js --watch",
+    "dist": "webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunter-Bunt/PowerPagesTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kunter-Bunt/PowerPagesTemplate/issues"
+  },
+  "homepage": "https://github.com/Kunter-Bunt/PowerPagesTemplate#readme",
+  "devDependencies": {
+    "@types/xrm": "^9.0.80",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "tslib": "^2.6.3"
+  }
+}
